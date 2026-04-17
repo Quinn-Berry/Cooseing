@@ -1,17 +1,19 @@
 # Assets
 
-Drop image files into this folder. The site references the following filenames — replace them with real photos when ready:
-
-## Required images (referenced in `index.html`)
-- `hero.jpg` — Full-bleed hero shot of Max (landscape, high quality, ~2000px wide)
-- `about.jpg` — Portrait photo of Max for the About section (portrait orientation works best)
-- `community.jpg` — Group photo from a Run With Christ Charleston run (landscape)
+## Current images (referenced in `index.html`)
+- `Max_hyrox_row.png` — Hero background (HYROX rower shot)
+- `max_praying.jpg` — About section (faith-focused portrait)
+- `max_running_friend.jpg` — Community section (Run With Christ)
+- `max_running_flag.jpg` — Unused, available for future sections
 
 ## Sponsor logos (in `assets/sponsors/`)
+Still needed:
 - `myprotein-logo.png` — MyProtein logo (transparent PNG or SVG preferred)
 - `dream-recovery-logo.png` — Dream Recovery logo (transparent PNG or SVG preferred)
 
-## Optional additions
-- Race photos, training shots, content post thumbnails for future gallery/content sections.
+## Swap images
+To change any image, either:
+1. Replace the file in this folder with one of the same name, or
+2. Edit the `<img src="assets/...">` path in `index.html` to point to a new filename
 
-All image tags use `loading="lazy"` (except hero) and descriptive `alt` text for accessibility.
+All image tags use `loading="lazy"` (except hero, which uses `eager`) and descriptive `alt` text for accessibility.
