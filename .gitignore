@@ -1,0 +1,11 @@
+# Local dev / editor
+.claude/
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
