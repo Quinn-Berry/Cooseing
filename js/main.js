@@ -6,6 +6,11 @@
 (function () {
   'use strict';
 
+  /* Always land at the top of the page on load/refresh.
+     Preserves in-page anchor links (they still scroll to their target). */
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (!location.hash) window.scrollTo(0, 0);
+
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 

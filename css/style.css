@@ -235,7 +235,8 @@ body {
   width: 100%;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: clamp(5rem, 16vh, 8rem);
   color: var(--bg);
 }
 .hero__bg {
