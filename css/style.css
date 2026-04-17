@@ -229,8 +229,9 @@ body {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
+  height: 72vh;
+  min-height: 460px;
+  max-height: 720px;
   width: 100%;
   overflow: hidden;
   display: flex;
