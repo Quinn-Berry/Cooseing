@@ -226,12 +226,12 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.08);
-  transition: transform 8s var(--ease);
+  object-position: center top;      /* start at top — his face is visible */
+  transition: object-position 8s var(--ease);
   /* fallback if no image */
   background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
 }
-.hero.is-loaded .hero__bg img { transform: scale(1); }
+.hero.is-loaded .hero__bg img { object-position: center 40%; } /* pan down */
 .hero__overlay {
   position: absolute;
   inset: 0;
