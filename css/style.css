@@ -268,13 +268,16 @@ body {
   padding: 0 var(--pad-x);
   max-width: var(--container);
   margin: 0 auto;
+  text-align: right;
 }
 .hero__eyebrow {
-  font-size: .85rem;
-  letter-spacing: .4em;
-  font-weight: 500;
-  margin-bottom: 1.25rem;
-  opacity: .85;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  letter-spacing: .01em;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  opacity: .95;
 }
 .hero__title {
   font-family: var(--font-display);
